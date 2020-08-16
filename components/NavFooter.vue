@@ -36,13 +36,13 @@
                   </router-link>
                 </div>
                 <div class="mb-4">
-                  <router-link
+                  <a
                     type="navbar-item"
                     class="has-text-weight-bold has-text-white-ter"
-                    :to="{ name: 'resume' }"
+                    href="https://registry.jsonresume.org/raublekick"
                   >
                     Resume
-                  </router-link>
+                  </a>
                 </div>
               </div>
               <div class="column">
@@ -90,7 +90,7 @@ export default {
     return {
       quotes: [
         "A noble spirit embiggens the smallest man. - Jebediah Springfield",
-        "You know what the best currency is and I just thought about this yesterday, the best currency, the most valuable of all, is gratitude. when you’re dead you’re dead, but you’re not quite so dead, if you contribute something. - John Dunsworth",
+        "You know what the best currency is and I just thought about this yesterday, the best currency, the most valuable of all, is gratitude. When you’re dead you’re dead, but you’re not quite so dead, if you contribute something. - John Dunsworth",
         "We are all born ignorant, but one must work hard to remain stupid. - Benjamin Franklin",
         "Look your highness, it's not that we're afraid, far from it. It's just that we've got this thing about death; it's not us. - Barf",
       ],

@@ -27,9 +27,9 @@
         Projects
       </b-navbar-item>
       <b-navbar-item
-        tag="router-link"
+        tag="a"
         type="navbar-item"
-        :to="{ name: 'resume' }"
+        href="https://registry.jsonresume.org/raublekick"
       >
         Resume
       </b-navbar-item>

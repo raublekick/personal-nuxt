@@ -50,30 +50,42 @@
         </div>
       </div>
     </section>
-
-    <div class="container mb-4">
-      <div class="columns">
-        <div class="column has-text-centered features">
-          <span class="is-large">
-            <b-icon icon="hammer-wrench" title="Projects" />
-          </span>
-          <p class="title is-4">Projects</p>
-          <p class="subtitle">
-            See what I've been working on in my spare time.
-          </p>
-        </div>
-        <div class="column has-text-centered features">
-          <span class="is-large">
-            <b-icon icon="pencil" title="Projects" />
-          </span>
-          <p class="title is-4">Blog</p>
-          <p class="subtitle">
-            Read about problems and solutions, as well as community engagement
-            topics.
-          </p>
+    <section class="has-background-grey-lighter hero">
+      <div class="hero-body">
+        <div class="container mb-4">
+          <div class="columns">
+            <div class="column has-text-centered features">
+              <span class="is-large">
+                <b-icon icon="hammer-wrench" title="Projects" />
+              </span>
+              <p class="title is-4">Projects</p>
+              <p class="subtitle">
+                See what I've been working on in my spare time.
+              </p>
+            </div>
+            <div class="column has-text-centered features">
+              <span class="is-large">
+                <b-icon icon="pencil" title="Blog" />
+              </span>
+              <p class="title is-4">Blog</p>
+              <p class="subtitle">
+                Read about problems and solutions, as well as community
+                engagement topics.
+              </p>
+            </div>
+            <div class="column has-text-centered features">
+              <span class="is-large">
+                <b-icon icon="file" title="Resume" />
+              </span>
+              <p class="title is-4">Resume</p>
+              <p class="subtitle">
+                My resume created with jsonresume.org.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
 </template>
 
