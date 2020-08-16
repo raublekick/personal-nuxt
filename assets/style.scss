@@ -1,0 +1,113 @@
+@import "bulma/sass/utilities/_all";
+
+$green: #87A22D;
+$green-invert: findColorInvert($green);
+$black: #111111;
+$white: #ffffff;
+$yellow: #F8FFE5;
+$yellow-invert: findColorInvert($yellow);
+$blue: #343760;
+$blue-invert: findColorInvert($blue);
+$red: #A71D31;
+$red-invert: findColorInvert($red);
+$grey-lighter: #ecebea;
+$grey-light: #8B919F;
+$grey: #62636B;
+$grey-dark: #43454A;
+
+// $custom-colors: (
+
+// );
+
+$shades: (
+  "white-ter": (
+    $white-ter
+  )
+);
+
+$colors: (
+  "mac-n-cheese": (
+    $yellow,
+    $yellow-invert
+  ),
+  "white": (
+    $white,
+    $black
+  ),
+  "black": (
+    $black,
+    $white
+  ),
+  "light": (
+    $white,
+    $black
+  ),
+  "dark": (
+    $black,
+    $white
+  ),
+  "primary": (
+    $green,
+    $green-invert
+  ),
+  "info": (
+    $blue,
+    $blue-invert
+  ),
+  "success": (
+    $green,
+    $green-invert
+  ),
+  "warning": (
+    $yellow,
+    $yellow-invert
+  ),
+  "danger": (
+    $red,
+    $red-invert
+  )
+);
+
+
+//Background
+//$body-background-color: $grey-lighter;
+
+// Navbar
+$navbar-box-shadow-size: 0 2px 11px 0;
+$navbar-box-shadow-color: rgba(0, 0, 0, 0.1);
+
+// Footer
+$footer-background-color: $green;
+
+// Links
+$link: $blue;
+$link-invert: $blue-invert;
+$link-focus-border: $blue;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+.p4 {
+  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.pt-4 {
+  padding-top: 1em;
+}
+.pb-4 {
+  padding-bottom: 1em;
+}
+.mt-4 {
+  margin-top: 1em;
+}
+.mr-4 {
+  margin-right: 1em;
+}
+.ml-4 {
+  margin-left: 1em;
+}
+.mb-4 {
+  margin-bottom: 1em;
+}
