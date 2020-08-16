@@ -64,7 +64,7 @@
         </div>
         <div class="column has-text-centered features">
           <span class="is-large">
-            <b-icon icon="blog" title="Projects" />
+            <b-icon icon="pencil" title="Projects" />
           </span>
           <p class="title is-4">Blog</p>
           <p class="subtitle">

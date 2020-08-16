@@ -72,5 +72,13 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {
+    // vendor: ["lodash"],
+    // plugins: [
+    //   new webpack.ProvidePlugin({
+    //     // global modules
+    //     _: "lodash",
+    //   }),
+    // ],
+  },
 };

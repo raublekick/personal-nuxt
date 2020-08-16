@@ -4,7 +4,9 @@
       <div class="container">
         <div class="columns">
           <div class="column">
-            Stuff go here.
+            <blockquote class="has-background-primary has-text-white-ter">
+              {{ quote }}
+            </blockquote>
           </div>
           <div class="column">
             <div class="columns">
@@ -81,6 +83,25 @@
     </div>
   </footer>
 </template>
+<script>
+import * as _ from "lodash";
+export default {
+  data() {
+    return {
+      quotes: [
+        "A noble spirit embiggens the smallest man. - Jebediah Springfield",
+        "You know what the best currency is and I just thought about this yesterday, the best currency, the most valuable of all, is gratitude. when you’re dead you’re dead, but you’re not quite so dead, if you contribute something. - John Dunsworth",
+        "We are all born ignorant, but one must work hard to remain stupid. - Benjamin Franklin",
+      ],
+    };
+  },
+  computed: {
+    quote() {
+      return this.quotes[_.random(0, this.quotes.length - 1)];
+    },
+  },
+};
+</script>
 <style scoped>
 .footer a {
   display: flex;
