@@ -1,6 +1,6 @@
 <template>
-  <section class="section">
+  <section class="section container">
     <h1 class="title has-text-primary">Projects</h1>
-    <h2 class="subtitle">Project 1</h2>
+    <h2 class="subtitle">Coming soon!</h2>
   </section>
 </template>
