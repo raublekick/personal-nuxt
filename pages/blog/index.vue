@@ -24,7 +24,7 @@
                           <b-tag
                             v-for="tag in article.tags"
                             :key="tag"
-                            type="is-primary has-text-white is-pulled-right"
+                            type="is-primary has-text-white-bis is-pulled-right"
                             >{{ tag }}</b-tag
                           >
                         </b-taglist>

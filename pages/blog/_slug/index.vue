@@ -3,7 +3,7 @@
     <article>
       <div class="columns">
         <div class="column is-one-fifth has-text-right"></div>
-        <div class="column has-background-white-bis blog-body">
+        <div class="column has-background-white-ter blog-body">
           <h1 class="title has-text-primary">{{ article.title }}</h1>
           <h2 class="subtitle">{{ article.description }}</h2>
 
@@ -11,7 +11,7 @@
             <b-tag
               v-for="tag in article.tags"
               :key="tag"
-              type="is-primary has-text-white-ter"
+              type="is-primary has-text-white-bis"
               >{{ tag }}</b-tag
             >
           </b-taglist>

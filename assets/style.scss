@@ -168,7 +168,7 @@ li.toc3 {
   transition: background 0.5s linear;
 }
 .card.article:hover {
-  background: $grey-lighter;
+  background: $white-ter;
 }
 ol {
   margin-left: 1rem;
@@ -190,4 +190,15 @@ ol {
 }
 .feature:hover a, .feature:hover .title, .feature:hover .subtitle {
   color: $grey-lighter;
+}
+@media only screen and (max-width: $tablet){
+  .feature {
+    background: $green;
+  }
+  .feature a, .feature .title, .feature .subtitle {
+    color: $grey-lighter;
+  }
+  .feature:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
 }
