@@ -54,33 +54,46 @@
       <div class="hero-body">
         <div class="container mb-4">
           <div class="columns">
-            <div class="column has-text-centered features">
-              <span class="is-large">
-                <b-icon icon="hammer-wrench" title="Projects" />
-              </span>
-              <p class="title is-4">Projects</p>
-              <p class="subtitle">
-                See what I've been working on in my spare time.
-              </p>
+            <div class="column has-text-centered feature">
+              <nuxt-link :to="{ name: 'projects' }">
+                <div>
+                  <b-icon
+                    icon="hammer-wrench"
+                    size="is-large"
+                    title="Projects"
+                  />
+                  <p class="title is-4">Projects</p>
+                  <p class="subtitle">
+                    See what I've been working on in my spare time.
+                  </p>
+                </div>
+              </nuxt-link>
             </div>
-            <div class="column has-text-centered features">
-              <span class="is-large">
-                <b-icon icon="pencil" title="Blog" />
-              </span>
-              <p class="title is-4">Blog</p>
-              <p class="subtitle">
-                Read about problems and solutions, as well as community
-                engagement topics.
-              </p>
+            <div class="column has-text-centered feature">
+              <nuxt-link :to="{ name: 'blog' }">
+                <div>
+                  <b-icon icon="pencil" size="is-large" title="Blog" />
+                  <p class="title is-4">Blog</p>
+                  <p class="subtitle">
+                    Read about problems and solutions, as well as community
+                    engagement topics.
+                  </p>
+                </div>
+              </nuxt-link>
             </div>
-            <div class="column has-text-centered features">
-              <span class="is-large">
-                <b-icon icon="file" title="Resume" />
-              </span>
-              <p class="title is-4">Resume</p>
-              <p class="subtitle">
-                My resume created with jsonresume.org.
-              </p>
+            <div class="column has-text-centered feature">
+              <a
+                href="https://registry.jsonresume.org/raublekick"
+                title="Resume"
+              >
+                <div>
+                  <b-icon icon="file" size="is-large" title="Resume" />
+                  <p class="title is-4">Resume</p>
+                  <p class="subtitle">
+                    My resume created with jsonresume.org.
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>

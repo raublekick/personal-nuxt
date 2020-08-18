@@ -11,9 +11,9 @@ Every developer eventually creates a website to highlight their work as well as 
 
 ## Trials
 
-I orignially wanted to create a simple static site and blog using Vuepress. I found that vanilla Vuepress required a lot of work to get blog functionality working. After searching on the topic I found a boilerplate project with the Vuepress blog component configured with many nice features[^1]. But what I found was that I did not like working with Vuepress layouts. In hindsight, I think I was being lazy. 
+I orignially wanted to create a simple static site and blog using Vuepress. I found that vanilla Vuepress required a lot of work to get blog functionality working. After searching on the topic I found a boilerplate project with the Vuepress blog component configured with many nice features.[^1] But what I found was that I did not like working with Vuepress layouts. In hindsight, I think I was being lazy. 
 
-Saber had recently become the new kid on the block and generated a lot of buzz[^2]. I tried this out and while it was easy to set up for a static website, it had many of the same issues I had with Vuepress. On top of that, I found the docs and plugins to be very hard to navigate.
+Saber had recently become the new kid on the block and generated a lot of buzz.[^2] I tried this out and while it was easy to set up for a static website, it had many of the same issues I had with Vuepress. On top of that, I found the docs and plugins to be very hard to navigate.
 
 ## Enter: Nuxt
 

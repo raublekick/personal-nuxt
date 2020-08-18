@@ -19,14 +19,14 @@
                     Home
                   </router-link>
                 </div>
-                <!-- <div class="mb-4">
+                <div class="mb-4">
                   <router-link
                     class="has-text-weight-bold has-text-white-ter"
                     :to="{ name: 'blog' }"
                   >
                     Blog
                   </router-link>
-                </div> -->
+                </div>
                 <div class="mb-4">
                   <router-link
                     class="has-text-weight-bold has-text-white-ter"

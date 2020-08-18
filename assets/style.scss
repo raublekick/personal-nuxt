@@ -10,7 +10,7 @@ $blue: #343760;
 $blue-invert: findColorInvert($blue);
 $red: #A71D31;
 $red-invert: findColorInvert($red);
-$grey-lighter: #ecebea;
+//$grey-lighter: #ecebea;
 $grey-light: #8B919F;
 $grey: #62636B;
 $grey-dark: #43454A;
@@ -110,4 +110,84 @@ $link-focus-border: $blue;
 }
 .mb-4 {
   margin-bottom: 1em;
+}
+
+.blog-menu {
+  margin-top: 3em;
+}
+.sticky {
+  position: sticky;
+  top: 30px;
+}
+li.toc2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+li.toc3 {
+  margin-left: 0.5rem;
+}
+.nuxt-content h2 {
+  color: $grey;
+  font-size: $size-5;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.nuxt-content .icon {
+  width: 0;
+}
+.nuxt-content h2 > a,
+.nuxt-content h3 > a {
+  margin-left: 0;
+}
+.nuxt-content h2 > a::before,
+.nuxt-content h3 > a::before {
+  content: "#";
+  --text-opacity: 1;
+  color: $green;
+  font-weight: 400;
+  font-size: $size-5;
+  line-height: 2rem;
+  margin-left: -1.25rem;
+  padding-right: 0.5rem;
+  position: absolute;
+  opacity: 1;
+}
+.nuxt-content h2 > a::before,
+.nuxt-content h3 > a::before {
+  opacity: 0;
+}
+.nuxt-content h2:hover > a::before,
+.nuxt-content h3:hover > a::before {
+  opacity: 1;
+}
+.card.article {
+  border-radius: 0.25rem;
+  box-shadow: none;
+  border: none;
+  // background-color: $grey-lighter;
+  transition: background 0.5s linear;
+}
+.card.article:hover {
+  background: $grey-lighter;
+}
+ol {
+  margin-left: 1rem;
+}
+.blog-body {
+  border-radius: 0.25rem;
+}
+
+.feature {
+  border-radius: 0.25rem;
+  box-shadow: none;
+  border: none;
+  // background-color: $grey-lighter;
+  transition: background 0.5s linear, color 0.5s;
+}
+.feature:hover {
+  background: $green;
+  color: $white-ter;
+}
+.feature:hover a, .feature:hover .title, .feature:hover .subtitle {
+  color: $grey-lighter;
 }

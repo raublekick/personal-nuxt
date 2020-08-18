@@ -20,9 +20,9 @@
       <b-navbar-item tag="router-link" :to="{ name: 'index' }">
         Home
       </b-navbar-item>
-      <!-- <b-navbar-item tag="router-link" :to="{ name: 'blog' }">
+      <b-navbar-item tag="router-link" :to="{ name: 'blog' }">
         Blog
-      </b-navbar-item> -->
+      </b-navbar-item>
       <b-navbar-item tag="router-link" :to="{ name: 'projects' }">
         Projects
       </b-navbar-item>
