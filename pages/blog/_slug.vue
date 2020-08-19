@@ -12,7 +12,11 @@
               v-for="tag in article.tags"
               :key="tag"
               type="is-primary has-text-white-bis"
-              >{{ tag }}</b-tag
+              ><NuxtLink
+                class="has-text-white-bis"
+                :to="{ name: 'blog-tag-tag', params: { tag: tag } }"
+                >{{ tag }}</NuxtLink
+              ></b-tag
             >
           </b-taglist>
           <time :datetime="article.createdAt">{{
