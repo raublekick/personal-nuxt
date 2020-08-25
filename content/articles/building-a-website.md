@@ -21,7 +21,15 @@ Nuxt is something I've been putting off learning for a long time. My opinion of 
 
 ## Layout
 
-Creating the layout was a breeze, as I am used to making layouts using Buefy. 
+Creating the layout was a breeze, as I am used to making layouts using Buefy. Generally I am used to cramming many things into the main.js or App.vue files. It is nice to have a clean, simple layout file defined here with not much more going on. 
+
+## Server-side Rendering
+
+Server-side rendering is a nice feature of Nuxt, and Nuxt certainly makes it painless to get up and running. What I don't like is how black-boxed it is. It's running on a Node server, but it's not exactly obvious how or why it is doing anything. I cut my teeth in the olden days of ASP.NET with code-behind files and other such concepts that I'm glad we've moved beyond. But it was always obvious in ASP.NET-land what was client-side and what was server-side. This is certainly an area that I will have to brush up on with Nuxt, and I'm sure as I gain more of an understanding of the enviornment it will all make sense. 
+
+## Conclusion
+
+So far, Nuxt is very easy to get up and running with some advanced features not present in the vanilla Vue/vue-cli ecosystem. I like many of the features Nuxt brings, but there is plenty that requires digging into the documentation. 
 
 
 [^1]: [https://github.com/bencodezen/vuepress-blog-boilerplate](https://github.com/bencodezen/vuepress-blog-boilerplate)
