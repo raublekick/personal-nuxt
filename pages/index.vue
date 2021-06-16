@@ -70,6 +70,17 @@
               </nuxt-link>
             </div>
             <div class="column has-text-centered feature">
+              <nuxt-link :to="{ name: 'community' }">
+                <div>
+                  <b-icon icon="handshake" size="is-large" title="Community" />
+                  <p class="title is-4">Community</p>
+                  <p class="subtitle">
+                    Projects with my local community.
+                  </p>
+                </div>
+              </nuxt-link>
+            </div>
+            <div class="column has-text-centered feature">
               <nuxt-link :to="{ name: 'blog' }">
                 <div>
                   <b-icon icon="pencil" size="is-large" title="Blog" />
