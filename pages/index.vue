@@ -80,7 +80,7 @@
                 </div>
               </nuxt-link>
             </div>
-            <div class="column has-text-centered feature">
+            <!-- <div class="column has-text-centered feature">
               <nuxt-link :to="{ name: 'blog' }">
                 <div>
                   <b-icon icon="pencil" size="is-large" title="Blog" />
@@ -91,7 +91,7 @@
                   </p>
                 </div>
               </nuxt-link>
-            </div>
+            </div> -->
             <div class="column has-text-centered feature">
               <a
                 href="https://registry.jsonresume.org/raublekick"

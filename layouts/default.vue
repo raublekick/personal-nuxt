@@ -42,11 +42,11 @@ export default {
           icon: "home",
           to: { name: "index" },
         },
-        {
-          title: "Blog",
-          icon: "lightbulb",
-          to: { name: "blog" },
-        },
+        // {
+        //   title: "Blog",
+        //   icon: "lightbulb",
+        //   to: { name: "blog" },
+        // },
         {
           title: "Projects",
           icon: "pencil",
